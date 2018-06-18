@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 1.6em;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.orangeText {
+  color: orange;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+   margin: 0 auto;
+   width: 60%;
+  }
+}
